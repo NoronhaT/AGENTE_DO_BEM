@@ -56,7 +56,7 @@ class EventHandler(AssistantEventHandler):
                 st.write(f"assistente > {content.text.value}")
 
 # Inicialização
-st.title("ANALISTA_PCP")
+st.title("AGENTE LEI DO BEM IMBAT")
 assistant = get_or_create_assistant()
 vector_store = setup_vector_store_and_files()
 
